@@ -1,0 +1,140 @@
+/* 
+
+span{
+    border: 1px dusted black;
+    background-color: yellowgreen;
+
+}
+ 
+
+p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    
+    color:purple;
+}
+
+header{
+    border: solid 10px black;
+    font-size: 3em;
+
+}
+header div{
+    margin: 10px;
+    padding: 10px;
+    width: calc(60% -20px - 20px);
+    background-color: salmon;
+    text-decoration: underline dotted black;
+
+}
+
+img{ 
+    
+    transform: matrix(1, 2, 3);
+    transform: scale(2);
+    transform: skew(20deg, 50deg);
+    transform: translate(20px, 40px) rotate(90deg);
+   
+}
+
+@media(max-width: 300px){
+    image{
+        transform: rotate(180deg);
+    }
+} */
+/* 
+h1{
+    color: navy;
+    border-bottom: 2px solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div{
+    color: gray;
+    font-size: large;
+} 
+a{
+    color: orange;
+}
+
+ul{
+    border: solid pink 2px;
+
+}
+
+div.job-title{
+
+    font-weight: bolder;
+}
+
+p{
+    width: 50%;
+    float: left;
+}
+#Proper-Name{
+    text-decoration: underline dotted black;
+    color: aquamarine;
+}
+
+a{
+    color: blue;
+}
+
+a[href]{
+    color: purple;
+
+}
+a[href="west-mec.org"]{
+    color: orange;
+}
+
+header p{
+    color: aquamarine;
+} */
+
+a[href="https://google.com"]{
+
+    color: red;
+    
+    
+}
+a[href="https://Wikipedia.com"]{
+    
+    color:grey;
+}
+
+a[href="https://W3schools.com"]{
+    
+    color:limegreen;
+}
+a[href="https://MDN.com"]{
+    
+    color: lightblue;
+}
+a[href="https://github.com"]{
+    
+    color:green;
+}
+
+p::after {
+    content: ".com";
+    
+}
+p::first-letter{
+    font-size: 200%;
+    font-family: fantasy;
+}
+a:visited{
+    color:purple;
+}
+:link{
+    text-decoration: none;
+}
